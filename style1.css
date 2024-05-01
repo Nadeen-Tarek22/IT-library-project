@@ -1,0 +1,113 @@
+
+
+body{
+    background-image: url("background3.jpeg"); 
+    background-attachment: fixed;
+    font-family: "tajwal" , sans-serif;
+    margin: 1;
+    padding: 150;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    direction: rtl;
+    
+}
+
+img {
+   opacity: 0.9;
+    width: 270px;
+    height: 358px;
+    position: center;
+    margin-bottom: 0px;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+
+h1{
+    font-family: "tajwal" , sans-serif;
+    font-size: 60px;
+    color: #a9350b;
+    text-align: center;
+    width: 100%;
+}
+
+table{
+
+    border: 100px;
+    padding: 100px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 70px 0;
+
+} 
+td {
+    border-radius: 20px; /* Adjust the value to change the roundness */
+    overflow: hidden; /* Ensure content within the cell stays within the rounded shape */
+  }
+
+ tr:nth-last-of-type(odd){
+  /* background-image: url("background3.jpeg");  */
+  background-color: #fdf3e9;
+  background-size: 270px;
+  color: black; 
+  font-family: "tajwal" , sans-serif;
+  font-size: 30px;
+  padding: 100px;
+  text-align: center;
+  
+} 
+
+
+.author{
+    font-size: 30px;
+    color: #a95334;
+
+}
+
+a {
+    font-size: 20px; 
+    text-decoration: none;
+    color: #110a79;
+  }
+  header {
+   
+    background-color: #FDF3E9;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+h1 {
+  align-items: center;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li{
+    margin-right: 10px;
+}
+
+nav a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.2s;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+
+footer {
+    background-color: #444;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+  }
